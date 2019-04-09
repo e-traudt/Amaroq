@@ -104,6 +104,7 @@
 		27A353FD7A3B9282A0D71F49 /* Pods_DireFloofUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1BFD1C11A0545006ADFCA3 /* Pods_DireFloofUITests.framework */; };
 		7B0E8E1673FE3F94B3199858 /* Pods_DireFloofTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770CBB42E4136BF25294E8D6 /* Pods_DireFloofTests.framework */; };
 		927EEBC2D08B7054EBA0F270 /* Pods_DireFloof.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D851A76E1374683F33CF17 /* Pods_DireFloof.framework */; };
+		C957C47D225D1C1600E63C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C957C47C225D1C1500E63C87 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +355,7 @@
 		93D851A76E1374683F33CF17 /* Pods_DireFloof.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DireFloof.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A855AC4855853CC23E2334AF /* Pods-DireFloof.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloof.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloof/Pods-DireFloof.adhoc.xcconfig"; sourceTree = "<group>"; };
 		C448DA33BB8B254F9A8757CE /* Pods-DireFloof.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloof.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloof/Pods-DireFloof.debug.xcconfig"; sourceTree = "<group>"; };
+		C957C47C225D1C1500E63C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5461B0E07A4CFC6E2ADF2E3 /* Pods-DireFloofUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		D7C335A521992C48767534F0 /* Pods-DireFloofTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofTests/Pods-DireFloofTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4A0332E3C43DB011FC8E4DF /* Pods-DireFloofUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -494,6 +496,7 @@
 			isa = PBXGroup;
 			children = (
 				04EC13F81E46A966000E15A6 /* Main.storyboard */,
+				C957C47C225D1C1500E63C87 /* Assets.xcassets */,
 				04EC14001E46A966000E15A6 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
@@ -854,6 +857,7 @@
 				046BF2141E7712EE00F01C50 /* OpenSans-Regular.ttf in Resources */,
 				04FE35F91E627E5600E34407 /* Settings.bundle in Resources */,
 				043155211E52945B0066C511 /* Roboto-MediumItalic.ttf in Resources */,
+				C957C47D225D1C1600E63C87 /* Assets.xcassets in Resources */,
 				043155231E52945B0066C511 /* Roboto-Thin.ttf in Resources */,
 				043155221E52945B0066C511 /* Roboto-Regular.ttf in Resources */,
 				04EC13FF1E46A966000E15A6 /* Assets.xcassets in Resources */,

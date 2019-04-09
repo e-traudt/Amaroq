@@ -105,6 +105,7 @@
 		7B0E8E1673FE3F94B3199858 /* Pods_DireFloofTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770CBB42E4136BF25294E8D6 /* Pods_DireFloofTests.framework */; };
 		927EEBC2D08B7054EBA0F270 /* Pods_DireFloof.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D851A76E1374683F33CF17 /* Pods_DireFloof.framework */; };
 		C957C47D225D1C1600E63C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C957C47C225D1C1500E63C87 /* Assets.xcassets */; };
+		C957C47F225D263600E63C87 /* DireFloof in Resources */ = {isa = PBXBuildFile; fileRef = C957C47E225D263500E63C87 /* DireFloof */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -356,6 +357,7 @@
 		A855AC4855853CC23E2334AF /* Pods-DireFloof.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloof.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloof/Pods-DireFloof.adhoc.xcconfig"; sourceTree = "<group>"; };
 		C448DA33BB8B254F9A8757CE /* Pods-DireFloof.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloof.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloof/Pods-DireFloof.debug.xcconfig"; sourceTree = "<group>"; };
 		C957C47C225D1C1500E63C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C957C47E225D263500E63C87 /* DireFloof */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DireFloof; sourceTree = "<group>"; };
 		D5461B0E07A4CFC6E2ADF2E3 /* Pods-DireFloofUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		D7C335A521992C48767534F0 /* Pods-DireFloofTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofTests/Pods-DireFloofTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4A0332E3C43DB011FC8E4DF /* Pods-DireFloofUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -496,6 +498,7 @@
 			isa = PBXGroup;
 			children = (
 				04EC13F81E46A966000E15A6 /* Main.storyboard */,
+				C957C47E225D263500E63C87 /* DireFloof */,
 				C957C47C225D1C1500E63C87 /* Assets.xcassets */,
 				04EC14001E46A966000E15A6 /* LaunchScreen.storyboard */,
 			);
@@ -800,7 +803,7 @@
 				TargetAttributes = {
 					04EC13EB1E46A966000E15A6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = J8ZUY53AC3;
+						DevelopmentTeam = BTPH4GZSVD;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -869,6 +872,7 @@
 				0431551A1E52945B0066C511 /* Roboto-BoldItalic.ttf in Resources */,
 				043155171E52945B0066C511 /* Roboto-BlackItalic.ttf in Resources */,
 				04F0D6F31EABD0A100DFF8BB /* Localizable.strings in Resources */,
+				C957C47F225D263600E63C87 /* DireFloof in Resources */,
 				0431551C1E52945B0066C511 /* Roboto-CondensedItalic.ttf in Resources */,
 				046BF2121E7712EE00F01C50 /* OpenSans-Light.ttf in Resources */,
 				043155191E52945B0066C511 /* Roboto-BoldCondensedItalic.ttf in Resources */,
@@ -1299,7 +1303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DireFloof/DireFloof.entitlements;
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = BTPH4GZSVD;
 				INFOPLIST_FILE = DireFloof/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1429,7 +1433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DireFloof/DireFloof.entitlements;
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = BTPH4GZSVD;
 				INFOPLIST_FILE = DireFloof/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1444,7 +1448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DireFloof/DireFloof.entitlements;
-				DEVELOPMENT_TEAM = J8ZUY53AC3;
+				DEVELOPMENT_TEAM = BTPH4GZSVD;
 				INFOPLIST_FILE = DireFloof/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

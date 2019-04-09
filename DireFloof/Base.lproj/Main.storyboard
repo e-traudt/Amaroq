@@ -6690,7 +6690,7 @@
                                 </connections>
                             </tableView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" horizontalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJz-a5-dG0">
-                                <rect key="frame" x="125" y="5" width="164" height="30"/>
+                                <rect key="frame" x="100" y="5" width="214" height="30"/>
                                 <color key="backgroundColor" red="0.1680024266" green="0.56291288139999995" blue="0.84955221410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="See new toots"/>
                                 <constraints>
@@ -10794,10 +10794,10 @@ Amaroq is built and maintained by a love of the Mastodon idea, which sorely has 
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hcK-jb-PJB"/>
-        <segue reference="qsd-h2-seO"/>
-        <segue reference="mgK-1g-SjE"/>
-        <segue reference="ljc-yS-Vrl"/>
-        <segue reference="nTy-RL-W87"/>
-        <segue reference="p34-zw-w3z"/>
+        <segue reference="pEu-oC-8c1"/>
+        <segue reference="EgM-HA-50V"/>
+        <segue reference="UOr-km-Y3e"/>
+        <segue reference="hpw-Ll-Yod"/>
+        <segue reference="7TA-SQ-5f8"/>
     </inferredMetricsTieBreakers>
 </document>

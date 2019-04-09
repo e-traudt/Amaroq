@@ -338,11 +338,11 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpw-1s-jZz">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="235"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="218"/>
                                             <color key="backgroundColor" red="0.19149845838546753" green="0.20683670043945312" blue="0.26078334450721741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="1" verticalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="04f-a0-A9f">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="235"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="218"/>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poj-MF-TNF">
                                             <rect key="frame" x="0.0" y="0.0" width="79" height="79"/>
@@ -414,14 +414,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2M-wt-Xn3" customClass="ActiveLabel" customModule="ActiveLabel">
-                                            <rect key="frame" x="11" y="195.33333333333334" width="392" height="19.666666666666657"/>
+                                            <rect key="frame" x="11" y="195.33333333333334" width="392" height="2.6666666666666572"/>
                                             <string key="text">*floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs**floofs*</string>
                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOLLOWS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10V-B3-wiC">
-                                            <rect key="frame" x="177.66666666666666" y="243" width="110.66666666666666" height="17.333333333333314"/>
+                                            <rect key="frame" x="177.66666666666666" y="226" width="110.66666666666666" height="17.333333333333343"/>
                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -433,7 +433,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOLLOWERS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QE0-ao-uwT">
-                                            <rect key="frame" x="298.33333333333331" y="243" width="110.66666666666669" height="17.333333333333314"/>
+                                            <rect key="frame" x="298.33333333333331" y="226" width="110.66666666666669" height="17.333333333333343"/>
                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -445,7 +445,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POSTS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROI-ge-hOO">
-                                            <rect key="frame" x="57.000000000000007" y="243" width="110.66666666666669" height="17.333333333333314"/>
+                                            <rect key="frame" x="57.000000000000007" y="226" width="110.66666666666669" height="17.333333333333343"/>
                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -457,28 +457,28 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-DC-TUc">
-                                            <rect key="frame" x="52" y="235.66666666666663" width="0.6666666666666643" height="57"/>
+                                            <rect key="frame" x="52" y="218.66666666666666" width="0.6666666666666643" height="73.999999999999972"/>
                                             <color key="backgroundColor" red="0.3749178648" green="0.41376155609999998" blue="0.51753836870000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="0.5" id="SSa-Gw-fAb"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibD-hm-3kw">
-                                            <rect key="frame" x="172.66666666666666" y="235.66666666666663" width="0.66666666666665719" height="57"/>
+                                            <rect key="frame" x="172.66666666666666" y="218.66666666666666" width="0.66666666666665719" height="73.999999999999972"/>
                                             <color key="backgroundColor" red="0.3749178648" green="0.41376155609999998" blue="0.51753836870000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="0.5" id="Rvt-GL-cnY"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L7J-xn-s36">
-                                            <rect key="frame" x="293.33333333333331" y="235.66666666666663" width="0.66666666666668561" height="57"/>
+                                            <rect key="frame" x="293.33333333333331" y="218.66666666666666" width="0.66666666666668561" height="73.999999999999972"/>
                                             <color key="backgroundColor" red="0.3749178648" green="0.41376155609999998" blue="0.51753836870000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="0.5" id="DeA-iv-KAX"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Id-KN-tkB">
-                                            <rect key="frame" x="0.0" y="235" width="414" height="0.66666666666665719"/>
+                                            <rect key="frame" x="0.0" y="218" width="414" height="0.66666666666665719"/>
                                             <color key="backgroundColor" red="0.3749178648" green="0.41376155609999998" blue="0.51753836870000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="0.5" id="2Uu-kV-wGl"/>
@@ -492,7 +492,7 @@
                                             </constraints>
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtp-s9-bED">
-                                            <rect key="frame" x="0.0" y="235" width="52" height="58"/>
+                                            <rect key="frame" x="0.0" y="218" width="52" height="75"/>
                                             <accessibility key="accessibilityConfiguration" label="More Options"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="235-Dw-QYx"/>
@@ -505,21 +505,21 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pB-AG-qON">
-                                            <rect key="frame" x="52.000000000000007" y="235" width="120.66666666666669" height="58"/>
+                                            <rect key="frame" x="52.000000000000007" y="218" width="120.66666666666669" height="75"/>
                                             <accessibility key="accessibilityConfiguration" label="Posts"/>
                                             <connections>
                                                 <action selector="profileSectionButtonPressed:" destination="vVH-Cz-Pj6" eventType="touchUpInside" id="TFu-7v-kaS"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvp-4M-w8S">
-                                            <rect key="frame" x="172.66666666666666" y="235" width="120.66666666666666" height="58"/>
+                                            <rect key="frame" x="172.66666666666666" y="218" width="120.66666666666666" height="75"/>
                                             <accessibility key="accessibilityConfiguration" label="Following"/>
                                             <connections>
                                                 <action selector="profileSectionButtonPressed:" destination="vVH-Cz-Pj6" eventType="touchUpInside" id="mNd-ww-8z0"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4JJ-Yl-atQ">
-                                            <rect key="frame" x="293.33333333333331" y="235" width="120.66666666666669" height="58"/>
+                                            <rect key="frame" x="293.33333333333331" y="218" width="120.66666666666669" height="75"/>
                                             <accessibility key="accessibilityConfiguration" label="Followers"/>
                                             <connections>
                                                 <action selector="profileSectionButtonPressed:" destination="vVH-Cz-Pj6" eventType="touchUpInside" id="rIc-4q-cab"/>
@@ -854,13 +854,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iVb-jG-Q6t">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="45"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="44.666666666666664"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mVL-EJ-0Bd">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="45"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="44.666666666666664"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="i1i-yX-yu7">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="44.666666666666664"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1161,13 +1161,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iio-IJ-geG">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="MEt-hw-wFW">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bfJ-yc-2cN">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1379,13 +1379,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqN-Rd-VhN">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="WzX-Sf-qdq">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="s8X-8f-cG8">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1637,13 +1637,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ec8-wG-h7S">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="J8V-cS-LbQ">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="H73-bm-2lF">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1771,11 +1771,11 @@
                                 </items>
                             </navigationBar>
                             <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DireWolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="VL4-lr-jTd">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <color key="tintColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmz-Fw-xqY">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <accessibility key="accessibilityConfiguration" label="Scroll to top"/>
                                 <connections>
                                     <action selector="scrollToTop:" destination="vVH-Cz-Pj6" eventType="touchUpInside" id="Kul-PR-LWJ"/>
@@ -2782,11 +2782,11 @@
                                 </items>
                             </navigationBar>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DireWolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="2CB-RW-Pka">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <color key="tintColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUp-Q0-vli">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <accessibility key="accessibilityConfiguration" label="Scroll to top"/>
                                 <connections>
                                     <action selector="scrollToTop:" destination="Kai-XK-L97" eventType="touchUpInside" id="my7-D3-E9b"/>
@@ -3668,7 +3668,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7y-Q0-RG9">
-                                                    <rect key="frame" x="359" y="59.333333333333343" width="44" height="25"/>
+                                                    <rect key="frame" x="359" y="9.3333333333333357" width="44" height="75"/>
                                                     <accessibility key="accessibilityConfiguration" label="Unblock"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="44" id="5V2-vl-hMN"/>
@@ -3728,7 +3728,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Yh-EP-9QJ">
-                                                    <rect key="frame" x="359" y="54" width="44" height="25"/>
+                                                    <rect key="frame" x="359" y="29" width="44" height="75"/>
                                                     <accessibility key="accessibilityConfiguration" label="Unblock"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="44" id="ZIt-Bf-rDq"/>
@@ -3799,7 +3799,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3du-5K-gRA">
-                                                    <rect key="frame" x="307" y="54" width="44" height="25"/>
+                                                    <rect key="frame" x="307" y="29" width="44" height="75"/>
                                                     <accessibility key="accessibilityConfiguration" label="Approve"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="44" id="Ij4-OJ-hGL"/>
@@ -3897,12 +3897,12 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DireWolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="QgH-Dq-hZm">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ven2" translatesAutoresizingMaskIntoConstraints="NO" id="QgH-Dq-hZm">
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <color key="tintColor" red="0.6092875599861145" green="0.6806635856628418" blue="0.78464502096176147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQZ-Ld-pnT">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <accessibility key="accessibilityConfiguration" label="Scroll to top"/>
                                 <connections>
                                     <action selector="scrollToTop:" destination="v8b-7P-q1a" eventType="touchUpInside" id="FUu-uq-McX"/>
@@ -4099,13 +4099,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-xt-lN5">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="aBf-7P-Sdx">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jpg-Pi-oGX">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -4351,13 +4351,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3mj-43-hmy">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="PM0-f5-FE8">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="d7e-VT-75D">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -4666,13 +4666,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Qp-w3-yIh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="158"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="157.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="SDN-N0-4fM">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="158"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="157.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ttQ-Ul-q7w">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="158"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="157.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -4885,13 +4885,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mgs-lA-SY9">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ETU-hq-3Uq">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="X9K-Re-Na8">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -5005,7 +5005,7 @@
                                 </connections>
                             </tableView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" horizontalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXJ-ax-8EG">
-                                <rect key="frame" x="125" y="69" width="164" height="30"/>
+                                <rect key="frame" x="100" y="69" width="214" height="30"/>
                                 <color key="backgroundColor" red="0.1680024266" green="0.56291288139999995" blue="0.84955221410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="See new toots"/>
                                 <constraints>
@@ -5784,13 +5784,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qk0-Zs-HBK">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="81"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="80.666666666666671"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vbe-Gb-hGa">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="81"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="80.666666666666671"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hCN-Nu-RJv">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="81"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="80.666666666666671"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -6036,13 +6036,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-Fp-R29">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2QS-AO-e4q">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qOR-ZG-qeO">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -6351,13 +6351,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6cI-cu-ZMD">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="qGP-Bq-rVM">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mZB-dP-2fB">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -6570,13 +6570,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nQG-gJ-6kZ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="uW8-L3-BDV">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="U5S-Ed-nnI">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -6690,7 +6690,7 @@
                                 </connections>
                             </tableView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" horizontalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJz-a5-dG0">
-                                <rect key="frame" x="125" y="5" width="164" height="30"/>
+                                <rect key="frame" x="100" y="5" width="214" height="30"/>
                                 <color key="backgroundColor" red="0.1680024266" green="0.56291288139999995" blue="0.84955221410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="See new toots"/>
                                 <constraints>
@@ -6977,13 +6977,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kkM-Zq-3ZK">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Bm6-Or-lfP">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vPp-nb-9cR">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -7229,13 +7229,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ksm-dr-bhr">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dPG-td-dox">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IYS-fn-TAY">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -7544,13 +7544,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fuU-TX-hPz">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6eg-h3-Y2O">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5EO-Fj-BWX">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -7763,13 +7763,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cj7-HN-VRi">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OQ7-QV-2a2">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AXN-qb-ISl">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -8097,13 +8097,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LcF-gm-LgY">
-                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="65"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="65.333333333333329"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9wC-dL-yHP">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="65"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="65.333333333333329"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="t7H-2P-vOR">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="65"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="65.333333333333329"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -8391,13 +8391,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEE-p3-9tj">
-                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="60"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="394" height="60.333333333333336"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="FsM-TG-c3V">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="60"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="394" height="60.333333333333336"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Eqe-8A-XUJ">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="60"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="394" height="60.333333333333336"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -8719,13 +8719,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTk-mQ-UER">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Tp0-rI-p1a">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5Zj-uu-jgp">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="117"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="116.66666666666667"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -8939,13 +8939,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCY-lD-cXB">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kJb-Ky-J7U">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Xir-yL-tTD">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -9118,11 +9118,11 @@
                                 </items>
                             </navigationBar>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DireWolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="G16-r2-VDy">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <color key="tintColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTQ-ew-25R" userLabel="Scroll to top">
-                                <rect key="frame" x="182" y="20" width="50" height="44"/>
+                                <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <accessibility key="accessibilityConfiguration" label="Scroll to top"/>
                                 <connections>
                                     <action selector="scrollToTop:" destination="VvH-bF-nmG" eventType="touchUpInside" id="fJj-D8-a9E"/>
@@ -9319,13 +9319,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="od5-FR-Kiy">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="178"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="177.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XxR-0I-aoz">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="178"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="177.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FRy-sB-TMs">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="178"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="177.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -9594,13 +9594,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zoI-os-lBd">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tM7-u0-QVu">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kBm-Du-SWq">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="91"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="90.666666666666671"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -9846,13 +9846,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6sy-yI-E6C">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vXW-pb-L9r">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Mt-w0-BJS">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="156"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="155.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -10105,13 +10105,13 @@
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PtY-gt-31A">
-                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="EiP-9y-pvR">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning Tag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xqD-wM-Q8V">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="182"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="336" height="181.66666666666666"/>
                                                                             <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
                                                                             <color key="textColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -10229,7 +10229,7 @@ EFNob3cvSGlkZQ
                                 </connections>
                             </tableView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" horizontalCompressionResistancePriority="755" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mum-mr-J6x">
-                                <rect key="frame" x="125" y="69" width="164" height="30"/>
+                                <rect key="frame" x="100" y="69" width="214" height="30"/>
                                 <color key="backgroundColor" red="0.1680024266" green="0.56291288139999995" blue="0.84955221410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" label="See New Toots"/>
                                 <constraints>
@@ -10793,11 +10793,11 @@ Amaroq is built and maintained by a love of the Mastodon idea, which sorely has 
         <image name="ven2" width="162" height="183"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hcK-jb-PJB"/>
-        <segue reference="qsd-h2-seO"/>
-        <segue reference="mgK-1g-SjE"/>
-        <segue reference="ljc-yS-Vrl"/>
-        <segue reference="nTy-RL-W87"/>
-        <segue reference="p34-zw-w3z"/>
+        <segue reference="IWd-CB-tep"/>
+        <segue reference="pEu-oC-8c1"/>
+        <segue reference="EgM-HA-50V"/>
+        <segue reference="UOr-km-Y3e"/>
+        <segue reference="hpw-Ll-Yod"/>
+        <segue reference="si5-ef-SSB"/>
     </inferredMetricsTieBreakers>
 </document>

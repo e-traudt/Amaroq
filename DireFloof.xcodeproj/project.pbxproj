@@ -106,13 +106,6 @@
 		927EEBC2D08B7054EBA0F270 /* Pods_DireFloof.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D851A76E1374683F33CF17 /* Pods_DireFloof.framework */; };
 		C957C47D225D1C1600E63C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C957C47C225D1C1500E63C87 /* Assets.xcassets */; };
 		C957C47F225D263600E63C87 /* DireFloof in Resources */ = {isa = PBXBuildFile; fileRef = C957C47E225D263500E63C87 /* DireFloof */; };
-		C957C481225D280300E63C87 /* DireFloof in Resources */ = {isa = PBXBuildFile; fileRef = C957C480225D280300E63C87 /* DireFloof */; };
-		C957C483225D2A6800E63C87 /* DireFloof in Resources */ = {isa = PBXBuildFile; fileRef = C957C482225D2A6800E63C87 /* DireFloof */; };
-		C957C484225D2A6800E63C87 /* DireFloof in Resources */ = {isa = PBXBuildFile; fileRef = C957C482225D2A6800E63C87 /* DireFloof */; };
-		C957C485225D2A6800E63C87 /* DireFloof in Resources */ = {isa = PBXBuildFile; fileRef = C957C482225D2A6800E63C87 /* DireFloof */; };
-		C957C487225D2AED00E63C87 /* ven2.png in Resources */ = {isa = PBXBuildFile; fileRef = C957C486225D2AED00E63C87 /* ven2.png */; };
-		C957C488225D2AED00E63C87 /* ven2.png in Resources */ = {isa = PBXBuildFile; fileRef = C957C486225D2AED00E63C87 /* ven2.png */; };
-		C957C489225D2AED00E63C87 /* ven2.png in Resources */ = {isa = PBXBuildFile; fileRef = C957C486225D2AED00E63C87 /* ven2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -365,9 +358,6 @@
 		C448DA33BB8B254F9A8757CE /* Pods-DireFloof.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloof.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloof/Pods-DireFloof.debug.xcconfig"; sourceTree = "<group>"; };
 		C957C47C225D1C1500E63C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C957C47E225D263500E63C87 /* DireFloof */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DireFloof; sourceTree = "<group>"; };
-		C957C480225D280300E63C87 /* DireFloof */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DireFloof; sourceTree = "<group>"; };
-		C957C482225D2A6800E63C87 /* DireFloof */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DireFloof; sourceTree = "<group>"; };
-		C957C486225D2AED00E63C87 /* ven2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ven2.png; sourceTree = "<group>"; };
 		D5461B0E07A4CFC6E2ADF2E3 /* Pods-DireFloofUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		D7C335A521992C48767534F0 /* Pods-DireFloofTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofTests/Pods-DireFloofTests.release.xcconfig"; sourceTree = "<group>"; };
 		E4A0332E3C43DB011FC8E4DF /* Pods-DireFloofUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DireFloofUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DireFloofUITests/Pods-DireFloofUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -508,10 +498,7 @@
 			isa = PBXGroup;
 			children = (
 				04EC13F81E46A966000E15A6 /* Main.storyboard */,
-				C957C486225D2AED00E63C87 /* ven2.png */,
 				C957C47E225D263500E63C87 /* DireFloof */,
-				C957C480225D280300E63C87 /* DireFloof */,
-				C957C482225D2A6800E63C87 /* DireFloof */,
 				C957C47C225D1C1500E63C87 /* Assets.xcassets */,
 				04EC14001E46A966000E15A6 /* LaunchScreen.storyboard */,
 			);
@@ -879,20 +866,17 @@
 				04EC13FF1E46A966000E15A6 /* Assets.xcassets in Resources */,
 				0431551E1E52945B0066C511 /* Roboto-Light.ttf in Resources */,
 				043155241E52945B0066C511 /* Roboto-ThinItalic.ttf in Resources */,
-				C957C487225D2AED00E63C87 /* ven2.png in Resources */,
 				0431551B1E52945B0066C511 /* Roboto-Condensed.ttf in Resources */,
 				0431551F1E52945B0066C511 /* Roboto-LightItalic.ttf in Resources */,
 				046BF20F1E7712EE00F01C50 /* OpenSans-ExtraBold.ttf in Resources */,
 				0431551A1E52945B0066C511 /* Roboto-BoldItalic.ttf in Resources */,
 				043155171E52945B0066C511 /* Roboto-BlackItalic.ttf in Resources */,
-				C957C483225D2A6800E63C87 /* DireFloof in Resources */,
 				04F0D6F31EABD0A100DFF8BB /* Localizable.strings in Resources */,
 				C957C47F225D263600E63C87 /* DireFloof in Resources */,
 				0431551C1E52945B0066C511 /* Roboto-CondensedItalic.ttf in Resources */,
 				046BF2121E7712EE00F01C50 /* OpenSans-Light.ttf in Resources */,
 				043155191E52945B0066C511 /* Roboto-BoldCondensedItalic.ttf in Resources */,
 				04EC13FA1E46A966000E15A6 /* Main.storyboard in Resources */,
-				C957C481225D280300E63C87 /* DireFloof in Resources */,
 				046BF2111E7712EE00F01C50 /* OpenSans-Italic.ttf in Resources */,
 				046BF2101E7712EE00F01C50 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				046BF20E1E7712EE00F01C50 /* OpenSans-BoldItalic.ttf in Resources */,
@@ -913,8 +897,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F0D6E91EABD0A000DFF8BB /* InfoPlist.strings in Resources */,
-				C957C484225D2A6800E63C87 /* DireFloof in Resources */,
-				C957C488225D2AED00E63C87 /* ven2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,8 +905,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F0D6EE1EABD0A100DFF8BB /* InfoPlist.strings in Resources */,
-				C957C485225D2A6800E63C87 /* DireFloof in Resources */,
-				C957C489225D2AED00E63C87 /* ven2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

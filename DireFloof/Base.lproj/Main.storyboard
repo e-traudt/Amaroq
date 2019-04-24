@@ -56,7 +56,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ven2" translatesAutoresizingMaskIntoConstraints="NO" id="CLb-e8-Cex">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ven3p" translatesAutoresizingMaskIntoConstraints="NO" id="CLb-e8-Cex">
                                                 <rect key="frame" x="172.66666666666666" y="89" width="68.666666666666657" height="69"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -2781,7 +2781,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DireWolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="2CB-RW-Pka">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ven3p" translatesAutoresizingMaskIntoConstraints="NO" id="2CB-RW-Pka">
                                 <rect key="frame" x="132" y="20" width="150" height="44"/>
                                 <color key="tintColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
@@ -3883,20 +3883,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHj-Gt-1KA">
-                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
-                                <color key="barTintColor" red="0.19149845838546753" green="0.20683670043945312" blue="0.26078334450721741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items>
-                                    <navigationItem id="8Wq-hW-YJv">
-                                        <barButtonItem key="leftBarButtonItem" image="SearchIcon" id="UMk-DR-UAW" userLabel="Search">
-                                            <color key="tintColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <connections>
-                                                <segue destination="nDL-Xg-cvj" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="coverVertical" id="UOr-km-Y3e"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ven2" translatesAutoresizingMaskIntoConstraints="NO" id="QgH-Dq-hZm">
                                 <rect key="frame" x="126" y="20" width="162" height="44"/>
                                 <color key="tintColor" red="0.6092875599861145" green="0.6806635856628418" blue="0.78464502096176147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -5028,6 +5014,20 @@
                                     <action selector="scrollToTop:" destination="v8b-7P-q1a" eventType="touchUpInside" id="GCm-lg-fI5"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHj-Gt-1KA">
+                                <rect key="frame" x="-137" y="28" width="414" height="44"/>
+                                <color key="barTintColor" red="0.19149845838546753" green="0.20683670043945312" blue="0.26078334450721741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="8Wq-hW-YJv">
+                                        <barButtonItem key="leftBarButtonItem" image="SearchIcon" id="UMk-DR-UAW" userLabel="Search">
+                                            <color key="tintColor" red="0.60928755999999995" green="0.68066358569999996" blue="0.784645021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="nDL-Xg-cvj" kind="presentation" modalPresentationStyle="overFullScreen" modalTransitionStyle="coverVertical" id="UOr-km-Y3e"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.097704626619815826" green="0.10534841567277908" blue="0.13439667224884033" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -10406,13 +10406,13 @@ EFNob3cvSGlkZQ
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amaroq" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="v3S-aW-ZxL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ven" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="v3S-aW-ZxL">
                                 <rect key="frame" x="103.66666666666669" y="151" width="207" height="66"/>
                                 <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DireWolfLogo" translatesAutoresizingMaskIntoConstraints="NO" id="pyV-Uu-XVe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ven3p" translatesAutoresizingMaskIntoConstraints="NO" id="pyV-Uu-XVe">
                                 <rect key="frame" x="170.66666666666666" y="85.666666666666686" width="72.666666666666657" height="72.333333333333314"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -10727,7 +10727,7 @@ Amaroq is built and maintained by a love of the Mastodon idea, which sorely has 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ven2-1" translatesAutoresizingMaskIntoConstraints="NO" id="9uL-lL-XCe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ven3p" translatesAutoresizingMaskIntoConstraints="NO" id="9uL-lL-XCe">
                                 <rect key="frame" x="20" y="83" width="382" height="584"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -10843,14 +10843,14 @@ Amaroq is built and maintained by a love of the Mastodon idea, which sorely has 
         <image name="UpArrowIcon" width="75" height="75"/>
         <image name="UserIcon" width="78" height="78"/>
         <image name="ven2" width="162" height="183"/>
-        <image name="ven2-1" width="162" height="183"/>
+        <image name="ven3p" width="766" height="734"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hcK-jb-PJB"/>
-        <segue reference="pEu-oC-8c1"/>
-        <segue reference="EgM-HA-50V"/>
+        <segue reference="fAt-kp-Qvw"/>
+        <segue reference="3t3-om-JN6"/>
         <segue reference="UOr-km-Y3e"/>
-        <segue reference="yMq-s2-PFr"/>
-        <segue reference="si5-ef-SSB"/>
+        <segue reference="lYx-kT-5gn"/>
+        <segue reference="p34-zw-w3z"/>
     </inferredMetricsTieBreakers>
 </document>

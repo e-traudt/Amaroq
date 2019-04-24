@@ -27,6 +27,7 @@ typedef NS_ENUM(NSUInteger, DWTabItem) {
     DWTabItemBlank,
     DWTabItemNotifications,
     DWTabItemMenu,
+    DWTabItemMenu2
 };
 
 @interface DWTabBarController ()
